@@ -9,7 +9,8 @@ Comparison with state-of-the-art methods on the SceneFlow and KITTI dataset. Our
 
 Compared with the IGEV algorithm, it can be seen that IGEV tends to blur image edges and produce mismatches in textureless regions. The method proposed in this paper effectively addresses the issue of insufficient performance in textureless and weak-texture areas.
 
-<img width="921" height="396" alt="image" src="https://github.com/user-attachments/assets/20c4160e-29ad-41e8-a254-ef5b92bc4b3e" />
+<img width="864" height="379" alt="all" src="https://github.com/user-attachments/assets/acab18b5-5b5e-4022-ad6b-0966943513bd" />
+
 
 
 
