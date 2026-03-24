@@ -10,17 +10,24 @@ Compared with the IGEV algorithm, it can be seen that IGEV tends to blur image e
 
 DEMO
 You can demo a trained model on pairs of images. To predict stereo for demo-imgs directory, run
+
 python demo_imgs.py --restore_ckpt ./pretrained_models/sceneflow.pth --left_imgs './demo-imgs/*/im0.png' --right_imgs './demo-imgs/*/im1.png'
+
 You can switch to your own test data directory, or place your own pairs of test images in ./demo-imgs.
 
 Evaluation
+
 python evaluate_stereo.py --restore_ckpt ./pretrained_models/sceneflow.pth --dataset sceneflow
 python evaluate_stereo.py --restore_ckpt ./pretrained_models/sceneflow.pth --dataset middlebury_H
 
 Training
+
 To train MTEV-Stereo on Scene Flow or KITTI, run
+
 python train_stereo.py --train_datasets sceneflow
+
 or
+
 python train_stereo.py --train_datasets kitti --restore_ckpt ./pretrained_models/sceneflow.pth
 
 Submission to the KITTI benchmark, run
