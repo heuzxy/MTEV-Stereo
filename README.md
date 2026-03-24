@@ -1,5 +1,5 @@
 # MTEV-Stereo
-Enhancing Stereo Matching in Edge and Textureless Regions via Multi-Level Texture Encoding and Dual-Frequency Feature Separation
+"Enhancing Stereo Matching in Edge and Textureless Regions via Multi-Level Texture Encoding and Dual-Frequency Feature Separation"
 
 <img width="920" height="356" alt="image" src="https://github.com/user-attachments/assets/09ce4637-0a7d-44af-a0d6-7d87c4cafa4c" />
 
